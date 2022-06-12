@@ -13,6 +13,7 @@ const userRouter = require('./routes/user');
 const db = require('./models');
 const passportConfig = require('./passport');
 
+
 dotenv.config();
 const app = express();
 db.sequelize.sync()
